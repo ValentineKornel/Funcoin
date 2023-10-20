@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "funcoin"
+version = "0.1.0"
+description = ""
+authors = ["Valentine Korneliuk <valentine.korneliuk17@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+marshmallow-oneofschema = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
