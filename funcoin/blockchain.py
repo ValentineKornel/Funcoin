@@ -69,7 +69,6 @@ class Blockchain(object):
         return block["hash"] < self.target
 
     def add_block(self, block):
-        # TODO: Add proper validation logic here!
         self.chain.append(block)
 
     def recalculate_target(self, block_index):
